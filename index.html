@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -24,11 +24,14 @@
 	</head>
 	<body>
 		<script type = "text/javascript">
-			var width = 800;
-			var height = 300;
-			var chartwidth = 400;
+			var width = 500;
+			var height = 250;
+			var chartwidth = 300;
 			var barPadding = 3;
-			var barwidth = width/7;			
+			var barwidth = width/7;
+			var legendwidth = 15;
+			var legendheight = 15;
+			var legendpadding = 5;
 			var dataPJ = d3.json("colors.json");
 			var dataPC = d3.csv ("colors.csv");
 			var dataset = [dataPJ,dataPC];
